@@ -1,0 +1,39 @@
+title {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 0;
+  }
+  
+ 
+  .main, .content {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 8px 0;
+  }
+  
+  
+  .read-more-btn {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 3px;
+  }
+  
+  
+  .read-more-btn:hover {
+    background-color: #214594;
+  }
+  
+ 
+  .Article{
+    border: 1px solid #4ade80;
+    padding: 15px;
+    width: 900px;
+    margin: 20px;
+    font-size: 14px;
+  }
+  
