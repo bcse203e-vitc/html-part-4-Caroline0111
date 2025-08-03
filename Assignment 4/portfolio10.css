@@ -1,0 +1,75 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+
+header {
+  background: linear-gradient(to right, #7f00ff, #00bfff);
+  color: white;
+  padding: 60px 20px;
+}
+
+header h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+header p {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+
+.projects {
+  background-color: #fff;
+  padding: 50px 20px;
+}
+
+.projects h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.project-list img {
+  width: 100px;
+  height: 100px;
+  margin: 0 15px;
+  opacity: 0.7; 
+  transition: opacity 0.3s;
+}
+
+.project-list img:hover {
+  opacity: 1;
+}
+
+
+.contact {
+  padding: 40px 20px;
+}
+
+.contact h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
